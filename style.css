@@ -41,6 +41,7 @@ body {
     flex: 0 0 auto;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 ul {
@@ -64,6 +65,21 @@ ul {
     justify-content: center;    
     background-color: white;
     height: 25%;
+    align-items:center;
+}
+
+.photos-flex-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+img {
+    height: 150px;
+    border-radius: 8px;;
+    width: 150px;
 }
 
 .third-section {
@@ -73,7 +89,10 @@ ul {
     height: 25%;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    align-self: center;
 }
+
 
 .quote-box {
     display: flex;
@@ -85,6 +104,7 @@ ul {
     font-style: light italic;
     color: #1F2937;
     overflow: hidden;
+    margin: auto;
 }
 
 .author {
@@ -97,31 +117,57 @@ ul {
     background-color: hsl(0, 0%, 100%);
     flex: 1 0 auto;
     height: 25%;
+    width: 100%;
     justify-content: center;
+    /** width: 100% **/
+    align-self: center;
+    margin: auto;
+    
 }
+
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    width: 100%;
+    border: 2px solid green;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
 
 .footer {
     background-color: #1F2937;
     flex: 1 0 auto;
-    max-height: 78px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     color: white;
     font-size: 24px;
+    width: 690px;
+    padding: 32px;
+    max-height: 32px;
+    align-self: center;
+
 }
+
 
 .sign-up-container {
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    align-self: center;
 }
 
 .sign-up-box {
     background-color: #3882F6;
-    width: 700px;
-    height: 150px;
+    width: 280px;
+    flex: 0 0 auto;
+    height: 80px;
     border-radius: 8px;
 }
 
@@ -130,7 +176,8 @@ ul {
     flex-direction: column;
     flex: 0 0 auto;
     width: 700px;
-    border: 2px solid green;
+    border: 2px solid green; 
+    background-color: white;
 }
 
 .third-container {
@@ -138,7 +185,9 @@ ul {
     flex-direction: column;
     flex: 0 0 auto;
     width: 700px;
+    height: 100%;
     border: 2px solid green;
+    background-color: #E5E7EB;
 }
 
 /** .main-container {
@@ -154,6 +203,22 @@ ul {
     height: 100%;
     align-items: center;
     border: 2px yellow solid;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.main-picture {
+    width: 240px;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 700;
+
 }
 
 .main-content {
